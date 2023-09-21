@@ -47,7 +47,7 @@ click==8.1.6
     #   typer
 cloudpickle==2.2.1
     # via kfp
-cryptography==41.0.3
+cryptography==41.0.4
     # via paramiko
 decorator==5.1.1
     # via
@@ -254,6 +254,7 @@ rsa==4.9
     # via google-auth
 six==1.16.0
     # via
+    #   asttokens
     #   fire
     #   google-api-python-client
     #   google-auth

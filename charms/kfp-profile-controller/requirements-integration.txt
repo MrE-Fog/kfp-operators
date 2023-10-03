@@ -200,6 +200,7 @@ selenium-wire==5.1.0
     # via -r requirements-integration.in
 six==1.16.0
     # via
+    #   asttokens
     #   google-auth
     #   kubernetes
     #   macaroonbakery
@@ -236,7 +237,7 @@ typing-extensions==4.7.1
     # via typing-inspect
 typing-inspect==0.9.0
     # via juju
-urllib3[socks]==2.0.4
+urllib3[socks]==2.0.6
     # via
     #   kubernetes
     #   requests

@@ -12,12 +12,8 @@ charset-normalizer==3.2.0
     # via requests
 coverage==7.2.7
     # via -r requirements-unit.in
-exceptiongroup==1.1.2
-    # via pytest
 idna==3.4
     # via requests
-importlib-resources==6.0.0
-    # via jsonschema
 iniconfig==2.0.0
     # via pytest
 jsonschema==4.17.3
@@ -33,8 +29,6 @@ ops==2.5.0
     #   serialized-data-interface
 packaging==23.1
     # via pytest
-pkgutil-resolve-name==1.3.10
-    # via jsonschema
 pluggy==1.2.0
     # via pytest
 pyrsistent==0.19.3
@@ -57,11 +51,7 @@ requests==2.31.0
     # via serialized-data-interface
 serialized-data-interface==0.7.0
     # via -r requirements.in
-tomli==2.0.1
-    # via pytest
-urllib3==2.0.4
+urllib3==2.0.7
     # via requests
 websocket-client==1.6.1
     # via ops
-zipp==3.16.2
-    # via importlib-resources

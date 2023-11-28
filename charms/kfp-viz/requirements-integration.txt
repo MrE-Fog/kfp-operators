@@ -32,7 +32,7 @@ cffi==1.15.1
     #   pynacl
 charset-normalizer==3.2.0
     # via requests
-cryptography==41.0.3
+cryptography==41.0.6
     # via
     #   paramiko
     #   pyopenssl
@@ -41,7 +41,10 @@ decorator==5.1.1
     #   ipdb
     #   ipython
 exceptiongroup==1.1.2
-    # via trio-websocket
+    # via
+    #   pytest
+    #   trio
+    #   trio-websocket
 executing==1.2.0
     # via stack-data
 google-auth==2.17.3
@@ -183,6 +186,7 @@ selenium-wire==5.1.0
     # via -r requirements-integration.in
 six==1.16.0
     # via
+    #   asttokens
     #   google-auth
     #   kubernetes
     #   macaroonbakery
@@ -199,6 +203,10 @@ tenacity==8.2.2
     # via -r requirements-integration.in
 theblues==0.5.2
     # via juju
+tomli==2.0.1
+    # via
+    #   ipdb
+    #   pytest
 toposort==1.10
     # via juju
 traitlets==5.9.0
@@ -212,7 +220,9 @@ trio==0.22.2
 trio-websocket==0.10.3
     # via selenium
 typing-extensions==4.7.1
-    # via typing-inspect
+    # via
+    #   ipython
+    #   typing-inspect
 typing-inspect==0.9.0
     # via juju
 urllib3[socks]==2.0.4
@@ -220,11 +230,12 @@ urllib3[socks]==2.0.4
     #   kubernetes
     #   requests
     #   selenium
+    #   urllib3
 wcwidth==0.2.6
     # via prompt-toolkit
 websocket-client==1.6.1
     # via kubernetes
-websockets==9.1
+websockets==7.0
     # via juju
 wsproto==1.2.0
     # via

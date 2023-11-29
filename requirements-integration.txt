@@ -47,7 +47,7 @@ click==8.1.6
     #   typer
 cloudpickle==2.2.1
     # via kfp
-cryptography==41.0.3
+cryptography==41.0.6
     # via paramiko
 decorator==5.1.1
     # via
@@ -57,6 +57,10 @@ deprecated==1.2.14
     # via kfp
 docstring-parser==0.15
     # via kfp
+exceptiongroup==1.2.0
+    # via
+    #   anyio
+    #   pytest
 executing==1.2.0
     # via stack-data
 fire==0.5.0
@@ -110,6 +114,8 @@ idna==3.4
     #   httpx
     #   requests
     #   yarl
+importlib-resources==6.1.1
+    # via jsonschema
 iniconfig==2.0.0
     # via pytest
 ipdb==0.13.13
@@ -170,6 +176,8 @@ pexpect==4.8.0
     # via ipython
 pickleshare==0.7.5
     # via ipython
+pkgutil-resolve-name==1.3.10
+    # via jsonschema
 pluggy==1.2.0
     # via pytest
 prompt-toolkit==3.0.39
@@ -254,6 +262,7 @@ rsa==4.9
     # via google-auth
 six==1.16.0
     # via
+    #   asttokens
     #   fire
     #   google-api-python-client
     #   google-auth
@@ -281,6 +290,10 @@ termcolor==2.3.0
     # via fire
 theblues==0.5.2
     # via juju
+tomli==2.0.1
+    # via
+    #   ipdb
+    #   pytest
 toposort==1.10
     # via juju
 traitlets==5.9.0
@@ -291,6 +304,8 @@ typer==0.9.0
     # via kfp
 typing-extensions==4.7.1
     # via
+    #   ipython
+    #   kfp
     #   pydantic
     #   typer
     #   typing-inspect
@@ -311,7 +326,7 @@ wcwidth==0.2.6
     # via prompt-toolkit
 websocket-client==1.6.1
     # via kubernetes
-websockets==9.1
+websockets==7.0
     # via juju
 wheel==0.41.0
     # via strip-hints
@@ -319,6 +334,8 @@ wrapt==1.15.0
     # via deprecated
 yarl==1.9.2
     # via aiohttp
+zipp==3.17.0
+    # via importlib-resources
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
